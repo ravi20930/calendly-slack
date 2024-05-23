@@ -1,4 +1,3 @@
-import bcrypt from "bcrypt";
 import { throwError } from "../utils/handler";
 import { User } from "../models";
 import { exchangeRefreshTokenForAccessToken } from "../config/calendly";
